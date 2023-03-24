@@ -48,7 +48,7 @@ Una función matemática para calcular el área y el perimetro.
         print("el perimetro de la figura es "+str(perimetro_final)+" cm")
         print("el area de la figura es de "+str(area_final)+"cm cuadrados")
         
-#PUNTO 3
+# PUNTO 3
 Diseñe una función que calcule la cantidad de carne de aves en kilos si se tienen N gallinas, M gallos y K pollitos cada uno pesando 6 kilos, 7 kilos y 1 kilo respectivamente.
 
     def carne(gallinas=int,gallos=int,pollitos=int):
@@ -110,6 +110,7 @@ El número de contagiados de Covid-19 en el país de NuncaLandia se duplica cada
         print("si el numero de contagiados es de "+str(c)+", el numero de contagiados para el dia "+str(d)+" es de "+str(contagiados_actuales))
         
 # PUNTO 7
+Escriba un programa que pida 5 números reales y calcule las siguientes operaciones usando una función para cada una:El promedio, La mediana, El promedio multiplicativo, Ordenar los números de forma ascendente, Ordenar los números de forma descendente, La potencia del mayor número elevado al menor número y La raíz cúbica del menor número
 
     from statistics import median
     def promedio(n1=float,n2=float,n3=float,n4=float,n5=float):
@@ -165,8 +166,32 @@ El número de contagiados de Covid-19 en el país de NuncaLandia se duplica cada
 
 por alguna razon no puedo adjutar el archivo de python, entnoces mando camputaras para mostralo
 
-![image](https://user-images.githubusercontent.com/124606636/227403260-8d3c4128-8827-41d4-b224-72c66a8bb3f5.png)
-![image](https://user-images.githubusercontent.com/124606636/227403331-a0e23535-62a4-4005-a6b2-92e8dd83fa02.png)
+![image](https://user-images.githubusercontent.com/124606636/227404024-20fb0022-624b-4ad5-936e-73f9beb214ce.png)
+![image](https://user-images.githubusercontent.com/124606636/227404059-75e1240f-4fd0-4521-9a1a-1f3120c8f7bb.png)
+
+# PUNTO 8
+    import prueba
+
+    if __name__=="__main__":
+        n1= float(input("Ingrese un número: ")) 
+        n2= float(input("Ingrese un número: ")) 
+        n3= float(input("Ingrese un número: ")) 
+        n4= float(input("Ingrese un número: ")) 
+        n5= float(input("Ingrese un número: ")) 
+        promedio=prueba.promedio(n1,n2,n3,n4,n5)
+        print(str(promedio))
+        mediana=prueba.mediana(n1,n2,n3,n4,n5)
+        print(str(mediana))
+        promedio_multiplicativo=prueba.promedio_multiplicativo(n1,n2,n3,n4,n5)
+        print(str(promedio))
+        numeros_de_forma_ascendente=prueba.numeros_de_forma_ascendente(n1,n2,n3,n4,n5)
+        print(str(numeros_de_forma_ascendente))
+        numeros_de_forma_descendente=prueba.numeros_de_forma_descendente(n1,n2,n3,n4,n5)
+        print(str(numeros_de_forma_descendente))
+        numero_mayor_elevado_el_menor=prueba.numero_mayor_elevado_el_menor(n1,n2,n3,n4,n5)
+        print(str(numero_mayor_elevado_el_menor))
+        la_raiz_cubica_del_numero_menor=prueba.la_raiz_cubica_del_numero_menor(n1,n2,n3,n4,n5)
+        print(str(la_raiz_cubica_del_numero_menor))
 
         
         
