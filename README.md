@@ -193,7 +193,24 @@ por alguna razon no puedo adjutar el archivo de python, entnoces mando camputara
         la_raiz_cubica_del_numero_menor=prueba.la_raiz_cubica_del_numero_menor(n1,n2,n3,n4,n5)
         print(str(la_raiz_cubica_del_numero_menor))
 
-        
+# PUNTO 9
+Consultar qué es y cómo funciona pip en python.
+
+Pip es el administrador de paquetes de Python, lo que significa que es una herramienta que se utiliza para instalar, actualizar y desinstalar paquetes o módulos de software de Python. Los paquetes de Python son colecciones de archivos que contienen código de Python y se utilizan para agregar funcionalidad a un proyecto de Python.
+
+# PUNTO 10
+Hacer un listado de módulos populares para python que se puedan instalar com pip y consultar cómo instalarlos.
+
+1)NumPy: es una biblioteca para Python que se utiliza para trabajar con matrices y vectores. Es muy popular en la comunidad científica y se utiliza comúnmente para el procesamiento de datos y el análisis numérico. Para instalar NumPy, use el siguiente comando: pip install numpy.
+
+2)pandas: es una biblioteca de Python que se utiliza para el análisis de datos. Permite la manipulación de datos en diferentes formatos, como CSV, Excel, SQL, etc. Para instalar pandas, use el siguiente comando: pip install pandas.
+
+3)Matplotlib: es una biblioteca de Python para la visualización de datos. Se puede utilizar para crear gráficos, diagramas de dispersión, diagramas de barras y más. Para instalar Matplotlib, use el siguiente comando: pip install matplotlib.
+
+4)Django: es un marco de trabajo para Python utilizado para crear aplicaciones web. Proporciona una estructura para la creación de aplicaciones web, así como una interfaz de administración para administrar el contenido del sitio. Para instalar Django, use el siguiente comando: pip install django.
+
+5)Flask: es un micro marco de trabajo para Python utilizado para crear aplicaciones web simples y livianas. Es fácil de usar y se puede personalizar según las necesidades del proyecto. Para instalar Flask, use el siguiente comando: pip install flask.
+
         
         
         
